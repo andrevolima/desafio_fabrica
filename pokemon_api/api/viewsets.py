@@ -2,6 +2,7 @@ from rest_framework.response import Response
 import requests
 from .serializers import PokemonSerializer
 from rest_framework.viewsets import ModelViewSet
+from rest_framework.permissions import IsAuthenticated
 from ..models import PokemonModel
 import json
 
@@ -10,6 +11,7 @@ import json
 
 
 class PokemonViewSet(ModelViewSet):
+    permission_classes = (IsAuthenticated, )
     queryset = PokemonModel.objects.all()
     serializer_class = PokemonSerializer
 
