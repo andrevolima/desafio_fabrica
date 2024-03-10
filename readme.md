@@ -1,5 +1,5 @@
 Para iniciar a aplicacao:
-Pra fazer o projeto rodar, vai ser necessario clonar o repositório do git e criar um ambiente virtual. Em seguida, instale essas dependências com o comando pip install.
+Pra fazer o projeto rodar, vai ser necessario clonar o repositório do git e criar um ambiente virtual. Em seguida, instale essas dependências com o comando pip install ou voce pode instalar todas atraves do pip install requirements.txt .
 
 Dependências Necessárias (Instaladas com pip install):
 
